@@ -38,9 +38,7 @@ body {
   background-color: #f7ead7;
 }
 
-/*
- * SR-ONLY
- */
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -54,9 +52,7 @@ body {
  }
 
 
-/*
- * SHARED STYLES
- */
+
 
 .page-container {
   max-width: 1000px;
@@ -64,6 +60,263 @@ body {
   padding: 0 1.0rem;
 }
 
-/*
- * ADD YOUR STYLES HERE
- */
+
+ body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #FFF3D1;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  flex: 0 1 200px; 
+  height: 120px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+#web-dev, #github {
+  flex: 0 1 400px;
+  height: 140px;
+  background: #C89EC4;
+}
+
+#uiux, #css, #html {
+  background: #F4B6C2;
+}
+
+#javascript {
+  background: #9AD0EC;
+}
+.profile-section {
+  display: flex;
+  justify-content: center;
+  background-color: #ffefef; 
+  padding: 40px 0;
+}
+
+.profile-container {
+  display: flex;
+  max-width: 1200px; 
+  align-items: center;
+  gap: 20px; 
+}
+
+.profile-image {
+  flex-basis: 40%; 
+}
+
+.profile-image img {
+  width: 100%; 
+  height: auto;
+  border-radius: 10px; 
+}
+
+.profile-text {
+  flex-basis: 60%; 
+  padding: 20px;
+}
+
+.profile-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.profile-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.profile-text button {
+  padding: 10px
+}
+
+
+.my-work-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 0;
+  background-color: #2f00ff; 
+}
+
+.section-title {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.work-cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  max-width: 1200px;
+}
+.work-card1 {
+  background-image: url(images/work/work-1.png);
+  border-radius: 10px;
+  padding: 20px;
+  width: calc(25% - 20px); 
+  margin-bottom: 20px; 
+  box-sizing: border-box; 
+  position: relative;
+  overflow: hidden;
+}
+
+.work-card1 {
+  background-image: url(images/work/work-1.png);
+  border-radius: 10px;
+  padding: 20px;
+  height: 200px; /* Adjust as needed */
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  height: 300px;
+  width: 500px
+}
+
+
+.work-card2 {
+  background-image: url(images/work/work-2.png);
+  border-radius: 10px;
+  padding: 20px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  height:300px;
+  width: 500px;
+
+}
+.work-card3 {
+  background-image: url(images/work/work-3.png);
+  border-radius: 10px;
+  padding: 20px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  height: 300px;
+  width: 500px
+}
+.work-card4 {
+  background-image: url(images/work/work-4.png);
+  border-radius: 10px;
+  padding: 20px;
+  height: 200px; 
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  height: 300px;
+  width: 500px;
+}
+.work-card-title {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.tutorial-card {
+  background-color: #e0e0e0; 
+}
+
+.language-tag {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.language-tag p {
+  background-color: #333;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+.feature-area {
+  flex: 2; 
+  background-color: #0f12f4; 
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-content h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.feature-content p {
+  color: #666;
+  text-align: center;
+}
+
+
+.book-call-section {
+  background-color: #D3BCC0; 
+  padding: 40px; 
+  border-radius: 20px; 
+  margin: 40px auto; 
+  width: 80%; 
+  max-width: 800px; 
+  text-align: center; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.book-call-section h2 {
+  color: #33261D; 
+  margin-bottom: 20px; 
+  font-size: 2.5rem; 
+}
+
+.book-call-section p {
+  color: #33261D; 
+  margin-bottom: 30px; 
+  font-size: 1rem; 
+  line-height: 1.6; 
+}
+
+.contact-button {
+  background-color: #000; 
+  color: #fff; 
+  padding: 20px 20px;
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 1rem; 
+  transition: background-color 0.3s ease; 
+}
+
+.contact-button:hover {
+  background-color: #444; 
+}
+
